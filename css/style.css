@@ -1,0 +1,46 @@
+* {
+  font-family： 'Gorditas'、筆記体;
+}
+
+/* ナビ部分 */
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 50px;
+  color: #000077;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+a {
+  margin: 10px;
+}
+
+.top_nav {
+  display: inline;
+  font-size: 20px;
+}
+
+/* コンテンツ部分 */
+.con {
+  font-size: 70px;
+  margin-top: 400px;
+}
+.box1 {
+  background-color: #000077;
+  margin-right: 450px;
+  height: 200px;
+}
+
+/* ファーストビューの写真 */
+.firstview {
+  text-align: right;
+  margin-top: -600px;
+  
+}
+
+.img {
+  width: 800px;
+}
