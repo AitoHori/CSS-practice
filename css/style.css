@@ -57,13 +57,12 @@ div span {
   line-height: 20px;
 }
 .fv-img {
-  width: 100%;
   margin-right: 0%;
   margin-left: 42%;
 }
 
 .fv_img_con {
-  width: 60%;
+  width: 100%;
 }
 /* 新着情報部分 */
 .news_title {
