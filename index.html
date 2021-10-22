@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS　演習課題</title>
+  <title>静的WEBデザイン　演習課題</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/favicon.ico">
@@ -13,25 +13,193 @@
   <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="main_nav">
-    <h1 class="top_title">COACHTECH</h1>
-    <p class="top_nav">
-      <a href="home.html">ホーム</a>
-      <a href="busines.html">事業内容</a>
-      <a href="recuruit.html">採用情報</a>
-      <a href="fome.html">お問い合せ</a>
+  <!-- ヘッダー部分 -->
+  <header class="home_top"> 
+    <div class="compnay_img">
+      <img src="img/estra_logo.png" alt="会社名">
+    </div>
+    <ul class="nav_list">
+      <li class="nav_list_1"><a href="news.html">News</a></li>
+      <li class="nav_list_1"><a href="About.html">About</a></li>
+      <li class="nav_list_1"><a href="service.html">Service</a></li>
+      <li class="nav_list_1"><a href="blog.html">Blog</a></li>
+      <li class="nav_list_1"><a href="company.html">Company</a></li>
+      <li class="nav_list_1"><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+<!-- FV部分 -->
+  <div class="fv-img">
+    <img class="fv_img_con" src="img/firstview.jpg" alt="子供と花">
+  </div>
+
+  <div class="main_message">
+    <h1>Commit to the <span class="message_1">growth</span> <br>for everyone
+    </h1>
+    <p class="word">
+      全ての人の<span class="message_2" >成長</span>にコミットする
     </p>
-  </nav>
-
-  <div class="con">
-    毎日を笑顔に
+    <p class="word_en">
+      Educational Technology Comapny <br>estra inc since 2019
+    </p>
+  </div>
+  <!-- 新着情報部分 -->
+  <div class="news_title">
+    <p class="news_title_en">News</p>
+    <h2 class="news_title_ja">新着情報</h2>
+  </div>
+  <div class="news_con">
+    <ul class="news_ul">
+      <li class="news_list">2021/01/01 <a href="News1.html" class="news_bot">ニュース</a> COACHTECHのサービスが開始されました</li>
+      <li class="news_list">2021/01/01 <a href="News2.html" class="news_bot">ニュース</a> COACHTECHのサービスが開始されました</li>
+      <li class="news_list">2021/01/01 <a href="News3.html" class="news_bot">ニュース</a> COACHTECHのサービスが開始されました</li>
+      <li class="news_list">2021/01/01 <a href="News4.html" class="news_bot">ニュース</a> COACHTECHのサービスが開始されました</li>
+      <li class="news_list">2021/01/01 <a href="News5.html" class="news_bot">ニュース</a> COACHTECHのサービスが開始されました</li>
+    </ul>
   </div>
 
-  <div class="box1"></div>
-
-  <div class="firstview">
-  <img class="img" src="img/firstview.jpeg" alt="ファーストビューの写真">
+  <!-- About部分 -->
+  <div class="about">
+    <div class="about_title">
+      <p class="about_title_1">About</p>
+      <p class="about_title_2">Technology✖️Coaching</p>
+    </div>
+    <div class="about_con">
+      <div class="about_con_text">
+        <p class="about_con_text_1">株式会社estraはデジタル化が遅れている教育業界に <br> 最新のテクノロジーを導入することによって教育の <br> DXを実現します</p>
+        <p class="about_con_text_1">独自のオペレーションとコーチングを融合した新しい <br> 教育の仕組みにより、1人1人に合わせた最適な教 <br> 育を提供します。</p>
+      </div>
+      <div class="about_img"> <img class="about_img1" src="img/about.jpg" alt="ネオンの写真"></div>
+    </div>
   </div>
 
+  <!-- サービス部分 -->
+  <div class="serv_title">
+    <p class="serv_title_en">Service</p>
+    <h2 class="serv_title_ja">サービス内容</h2>
+  </div>
+  <div class="serv_con">
+    <div class="serv_con_left">
+      <img src="img/service__first.svg" class="serv_img1">
+      <p class="serv_con_1_t">教育事業</p>
+      <p class="serv_con_1_c">サンプルテキストがここには入ります。サンプル<br>テキストがここには入ります。サンプルテキスト<br>がここには入ります。</p>
+    </div>
+    <div class="serv_con_right">
+      <div class="serv_con_right_1">
+        <img src="img/service__first.svg" class="serv_img2">
+        <div class="serv_con_right_1_1">
+        <p class="serv_con_right_1_1t">教育事業</p>
+        <p class="serv_con_roght_1_1c">サンプルテキストがここに入ります<br>サンプルテキストがここに入ります<br>サンプルテキストがここに入ります</p>
+      </div>
+      </div>
+        <div class="serv_con_right_2">
+          <img src="img/service__first.svg" class="serv_img2">
+          <div class="serv_con_right_1_1">            <p class="serv_con_right_1_1t">教育事業</p>
+          <p class="serv_con_roght_1_1c">サンプルテキストがここに入ります<br>サンプルテキストがここに入ります<br>サンプルテキストがここに入ります</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ブログ部分 -->
+  <div class="blog">
+    <div class="blog_title">
+      <p class="blog_title_en">Blog</p>
+      <h2 class="blog_title_ja">ブログ</h2>
+    </div>
+    <div class="blog_contents_all">
+      <div class="card">
+        <img class="card_image" src="img/blog__first.jpg" alt="PCの画像">
+        <div class="Blog_tag">Blog</div>
+        <div class="card_content">
+          <p class="card_title">プログラミング学習の勉強方法を特集。挫折感しない秘訣とは？</p>
+          <div class="card_tag">
+            <p class="card_tag_item">2021/01/01</p>
+            <p class="card_tag_last">#COACHTECH</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <img class="card_image" src="img/blog__first.jpg" alt="PCの画像">
+        <div class="Blog_tag">Blog</div>
+        <div class="card_content">
+          <p class="card_title">プログラミング学習の勉強方法を特集。挫折感しない秘訣とは？</p>
+          <div class="card_tag">
+            <p class="card_tag_item">2021/01/01</p>
+            <p class="card_tag_last">#COACHTECH</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <img class="card_image" src="img/blog__first.jpg" alt="PCの画像">
+        <div class="Blog_tag">Blog</div>
+        <div class="card_content">
+          <p class="card_title">プログラミング学習の勉強方法を特集。挫折感しない秘訣とは？</p>
+          <div class="card_tag">
+            <p class="card_tag_item">2021/01/01</p>
+            <p class="card_tag_last">#COACHTECH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="blog_button_con" href="blig.html">一覧ページへ</a>
+  </div>
+
+  <!-- 会社概要部分 -->
+  <div class="company_title"  >
+    <p class="blog_title_en">Compnay</p>
+    <h2 class="blog_title_ja">会社概要</h2>
+  </div>
+  <table class="company" >
+    <tr>
+      <th>会社名</th>
+      <td>株式会社estra</td>
+    </tr>
+    <tr>
+      <th>代表者名</th>
+      <td>福場凛太郎</td>
+    </tr>
+    <tr>
+      <th>本所在地</th>
+      <td>東京都渋谷区1-1-1</td>
+    </tr>
+    <tr>
+      <th>授業員数</th>
+      <td>100名</td>
+    </tr>
+    <tr>
+      <th>電話番号</th>
+      <td>0120-00-0000</td>
+    </tr>
+    <tr>
+      <th>資本金</th>
+      <td>¥10,000,000</td>
+    </tr>
+  </table>
+  <!-- 採用情報＆社員インタビュー -->
+  <div class="recint">
+    <div class="recruit">
+      <img src="img/recruit.png" class="rec_img">
+      <div class="rec_title"><a href="recruit.html" class="rec_link">採用情報</a></div>
+    </div>
+    <div class="interview">
+      <img src="img/interview.png" class="int_img">
+      <div class="int_title"><a href="interview.html" class="int_link">社員インタビュー</a></div>
+    </div>
+  </div>
+  
+
+  <div class="inquiry">
+    <div class="inq_text">株式会社estraへのお問合せはこちらから</div>
+    <p class="inq_sen"></p>
+    <a href="inquiry" class="inq_button">お問い合わせ</a>
+    <img class="inq_img" src="img/mailicon.svg">
+  </div>
+
+  <!--フッター部分 -->
+  <footer class="footer">
+    <small class="copyright"> Copyright &copy;estra.inc All Right Reserved</small>
+  </footer>
 </body>
 </html>
